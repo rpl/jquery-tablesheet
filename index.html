@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-    <title>jQuery UI Example Page</title>
+    <title>jQuery Tablesheet Example</title>
     <link type="text/css" href="css/ui-lightness/jquery-ui-1.8.6.custom.css" rel="stylesheet" />	
     <link type="text/css" href="js/jwysiwyg/jquery.wysiwyg.css" rel="stylesheet" />	
     <script type="text/javascript" src="js/jquery-1.4.3.js"></script>
@@ -36,11 +36,25 @@
     </script>
   </head>
   <body>
-    <div id="themeSwitcher"></div>
-
     <h1>TEST JQUERY TABLESHEET</h1>
 
-    <div id="test-tablesheet"></div>
+    <p>
+      This is a personal experiment on using jquery-tmpl to create custom jquery-ui widgets and
+      thanks to jquery-tmpl rending and updating code is much more cleaner and simple.
+    </p>
+    <p>
+      This example widget supports:
+      <ul>
+	<li>resizing</li>
+	<li>drag and drop on columns, rows and cells</li>
+	<li>editing inline and in dialog using double click</li>
+      </ul>
+    </p>
 
+    <p>You can look the code on <a href="http://github.com/rpl/jquery-tablesheet">github</a></p>
+
+    <div id="themeSwitcher" style="position: fixed; top: 20px; right: 20px;"></div>
+
+    <div id="test-tablesheet"></div>
   </body>
 </html>
